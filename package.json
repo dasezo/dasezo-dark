@@ -1,0 +1,44 @@
+{
+    "name": "dasezo-dark-theme",
+    "displayName": "Dasezo Dark Theme",
+    "description": "Vscode dark theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.74.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dasezo Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dasezo-dark-theme-color-theme.json"
+            }
+        ]
+    },
+    "icon": "logo.png",
+    "publisher": "Dasezo",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Dasezo/dasezo-dark-vsctheme.git"
+    },
+    "author": {
+        "name": "Mohammed Benguezzou",
+        "email": "mohamedbenguzzou40@gmail.com"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Dasezo/dasezo-dark-vsctheme/issues"
+    },
+    "keywords": [
+        "vscode",
+        "material",
+        "jet-brains",
+        "deep-ocean",
+        "dark",
+        "theme"
+    ],
+    "homepage": "https://github.com/Dasezo/dasezo-deep-ocean-theme"
+}
