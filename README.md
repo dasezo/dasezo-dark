@@ -4,11 +4,11 @@
 
 **Get the Dasezo Dark into your VS Code.**
 
-![Theme screenshot on Ubuntu](img/dasezo-dark-img.png)
+![Theme screenshot on Ubuntu](https://github.com/Dasezo/dasezo-dark-vsctheme/blob/main/img/dasezo-dark-img.png)
 
 ## Install
 
-This theme can be installed from the [VSCode Marketplace](https://marketplace.visualstudio.com/vscode).
+This theme can be installed from the [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=Dasezo.dasezo-dark-theme).
 
 ## Notice an issue?
 
