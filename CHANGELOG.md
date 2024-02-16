@@ -6,4 +6,17 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-- Initial release
+### Added
+
+- Black version : dasezo-black
+
+### Changed
+
+- file name : dasezo-dark-purple.json
+
+## [ 0.0.1]
+
+### Added
+
+- create dasezo dark theme
+- new syntax colors
