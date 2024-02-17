@@ -13,6 +13,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### Changed
 
 - file name : dasezo-dark-purple.json
+- new syntax colors
 
 ## [ 0.0.1]
 

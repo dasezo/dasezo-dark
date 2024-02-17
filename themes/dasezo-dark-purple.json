@@ -114,7 +114,7 @@
       "name": "Variables",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
-        "foreground": "#ddd"
+        "foreground": "#D2EEFA"
       }
     },
     {
@@ -136,9 +136,14 @@
       "scope": [
         "keyword",
         "storage.type",
-        "storage.modifier",
+        "keyword.type",
+        "entity.name.type.ts",
+        "entity.name.type.alias.ts",
+        "entity.name.type.interface.ts",
+        "keyword.other.type.php",
         "constant.language",
         "keyword.operator.new",
+        "keyword.other.new.php",
         "keyword.operator.expression",
         "support.type.primitive",
         "support.type.builtin"
@@ -150,9 +155,14 @@
     },
     {
       "name": "Keyword",
-      "scope": ["keyword", "keyword.control.flow.python"],
+      "scope": [
+        "keyword",
+        "keyword.control.flow.python",
+        "storage.modifier.async"
+      ],
       "settings": {
-        "foreground": "#ffd455"
+        "foreground": "#FFCC00",
+        "fontStyle": "italic"
       }
     },
     {
@@ -237,10 +247,11 @@
         "constant.escape",
         "variable.parameter",
         "meta.fstring.python",
-        "meta.import variable.other.readwrite.alias"
+        "meta.import variable.other.readwrite.alias",
+        "entity.name.type.package.go"
       ],
       "settings": {
-        "foreground": "#eee"
+        "foreground": "#EBE5FD"
       }
     },
     {
@@ -254,7 +265,8 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#C3E88D"
+        "foreground": "#C3E88D",
+        "fontStyle": "italic"
       }
     },
     {
@@ -304,10 +316,15 @@
     },
     {
       "name": "Language methods",
-      "scope": ["variable.language"],
+      "scope": [
+        "variable.language",
+        "storage.modifier",
+        "storage.type.type.ts",
+        "storage.type.interface.ts"
+      ],
       "settings": {
-        "fontStyle": "italic underline",
-        "foreground": "#11efe4"
+        "fontStyle": "italic",
+        "foreground": "#97A7C8"
       }
     },
     {
@@ -326,17 +343,6 @@
       ],
       "settings": {
         "foreground": "#82AAFF"
-      }
-    },
-    {
-      "name": "HTML Attributes",
-      "scope": [
-        "text.html.basic entity.other.attribute-name.html",
-        "text.html.basic entity.other.attribute-name"
-      ],
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#FFCB6B"
       }
     },
     {
@@ -686,14 +692,22 @@
     },
     {
       "scope": [
+        "keyword.control.import",
+        "keyword.control.from",
+        "keyword.package.go",
+        "storage.modifier.async",
+        "keyword.control.return",
         "keyword.control.flow",
-        "keyword.control.return.php",
-        "keyword.control.java",
         "keyword.control.go"
       ],
       "settings": {
-        "foreground": "#e06c75",
-        "fontStyle": "underline"
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": ["keyword.control"],
+      "settings": {
+        "foreground": "#FFCC00"
       }
     },
     {
@@ -716,7 +730,9 @@
       "scope": [
         "entity.other.attribute-name.class.css",
         "entity.other.attribute-name.id.css",
-        "entity.other.attribute-name.html"
+        "entity.other.attribute-name.html",
+        "entity.other.attribute-name.js.jsx",
+        "entity.other.attribute-name.ts.tsx"
       ],
       "settings": {
         "foreground": "#7fd1fd"
@@ -744,17 +760,18 @@
         "variable.other.member.c"
       ],
       "settings": {
-        "foreground": "#daa761"
+        "foreground": "#F78C6C"
       }
     },
     {
       "scope": [
         "meta.object-literal.key",
+        "variable.object.property.ts",
         "variable.other.readwrite",
         "source.ruby"
       ],
       "settings": {
-        "foreground": "#ccc"
+        "foreground": "#bbb"
       }
     },
     {
@@ -779,7 +796,7 @@
         "keyword.operator"
       ],
       "settings": {
-        "foreground": "#ffbf00",
+        "foreground": "#FFCC00",
         "fontStyle": "bold"
       }
     }
