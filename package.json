@@ -1,8 +1,8 @@
 {
-  "name": "dasezo-dark",
+  "name": "dasezo-dark-theme",
   "displayName": "Dasezo Dark",
   "description": "Dark theme for Micorsoft Visual Studio Code",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -14,10 +14,20 @@
       {
         "label": "Dasezo Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/dasezo-dark-purple.json"
+        "path": "./themes/dasezo-dark-old.json"
       },
       {
         "label": "Dasezo Black",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dasezo-black-old.json"
+      },
+      {
+        "label": "Dasezo Dark - New Syntax",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dasezo-dark.json"
+      },
+      {
+        "label": "Dasezo Black - New Syntax",
         "uiTheme": "vs-dark",
         "path": "./themes/dasezo-black.json"
       }
